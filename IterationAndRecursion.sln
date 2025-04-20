@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IterationAndRecursion", "IterationAndRecursion\IterationAndRecursion.pyproj", "{FA14BD3D-97AF-409F-90BC-2CDC6B12C5FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA14BD3D-97AF-409F-90BC-2CDC6B12C5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA14BD3D-97AF-409F-90BC-2CDC6B12C5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B3B7298-126C-44FD-B5F2-65C8E93DB0E6}
+	EndGlobalSection
+EndGlobal
