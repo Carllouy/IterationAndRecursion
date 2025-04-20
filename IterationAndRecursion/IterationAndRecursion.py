@@ -1,2 +1,29 @@
 # Carl Louy, CIS261, IterationAndRecursion
 
+def factorial_iterative(n):
+    if n < 0:
+        return "Undefined for negative numbers"
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+def factorial_recursive(n):
+    if n < 0:
+        return "Undefined for negative numbers"
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial_recursive(n - 1)
+
+numbers = [0, 5, 10, 25, 50, 100]
+
+print("Factorials using Iterative Function:")
+for n in numbers:
+    print(f"{n}! = {factorial_iterative(n)}")
+
+print("\nFactorials using Recursive Function:")
+for n in numbers:
+    try:
+        print(f"{n}! = {factorial_recursive(n)}")
+    except RecursionError:
+        print(f"{n}! = Error: recursion limit reached")
